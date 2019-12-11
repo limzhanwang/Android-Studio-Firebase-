@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+       android:id="@+id/nav_home"
+        android:title="BMI Calculator"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/nav_guide"
+        android:title="Guide"
+        android:enabled="true"
+        android:icon="@drawable/ic_star_black_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/nav_userinfo"
+        android:title="User Information"
+        android:enabled="true"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="Account"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        app:showAsAction="ifRoom">
+
+
+    </item>
+</menu>

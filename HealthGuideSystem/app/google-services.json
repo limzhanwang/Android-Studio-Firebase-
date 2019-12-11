@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "202540447987",
+    "firebase_url": "https://health-guide-system.firebaseio.com",
+    "project_id": "health-guide-system",
+    "storage_bucket": "health-guide-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202540447987:android:fc72d22aea3af378db1f86",
+        "android_client_info": {
+          "package_name": "com.example.healthguidesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202540447987-baku76kkh2fh0fo3uatog9qa727sbhom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthguidesystem",
+            "certificate_hash": "db25376fadbb0a13db157c2e2c4afa78538429bd"
+          }
+        },
+        {
+          "client_id": "202540447987-5unscp0b9kslvi7bpge91e8dru7ts4av.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOOTNVRGJ0pj10MMSvEsl4m2QoRyY1Sao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202540447987-5unscp0b9kslvi7bpge91e8dru7ts4av.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202540447987:android:3b3802da8d07032edb1f86",
+        "android_client_info": {
+          "package_name": "com.example.healthnutritiondietguidesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202540447987-1fge0ual0rj4ctujki3mj9v2m3mhjef4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthnutritiondietguidesystem",
+            "certificate_hash": "db25376fadbb0a13db157c2e2c4afa78538429bd"
+          }
+        },
+        {
+          "client_id": "202540447987-5unscp0b9kslvi7bpge91e8dru7ts4av.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOOTNVRGJ0pj10MMSvEsl4m2QoRyY1Sao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202540447987-5unscp0b9kslvi7bpge91e8dru7ts4av.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

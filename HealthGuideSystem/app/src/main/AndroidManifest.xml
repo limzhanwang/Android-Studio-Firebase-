@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthguidesystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/healthguide2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".food"></activity>
+        <activity android:name=".workout" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userinfo" />
+        <activity android:name=".updateuserinfo" />
+        <activity android:name=".BmiCalculator" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="Reset Password" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="Registration" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile" />
+    </application>
+
+</manifest>

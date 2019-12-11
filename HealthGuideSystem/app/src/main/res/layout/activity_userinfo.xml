@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".userinfo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/acc">
+
+
+    ---------------------------------------------------------------------------------------
+
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="115dp"
+        android:text="Name                      :">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_toRightOf="@+id/a"
+        android:text="        Your Name "
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+
+        android:text="Age                          :"></TextView>
+
+
+    ---------------------------------------------------------------------------------------
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/c"
+        android:text="        Your Age"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Gender                    :"></TextView>
+
+
+    ---------------------------------------------------------------------------------------
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/e"
+        android:text="        Your Gender"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Height                     :">
+
+    </TextView>
+
+
+    ---------------------------------------------------------------------------------------
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/g"
+        android:text="        Your Height"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+            android:id="@+id/i"
+            android:layout_below="@+id/g"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+            android:text="Weight                    :">
+
+        </TextView>
+
+
+    ---------------------------------------------------------------------------------------
+
+
+    ---------------------------------------------------------------------------------------
+
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/g"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/i"
+        android:text="        Your Weight"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:text="BMI                          :">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/resultbmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/j"
+        android:text="        Your BMI"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultbmi"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:text="show">
+
+    </Button>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbot"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/colorlgblue"
+        app:itemTextColor="@color/colorblack"
+        app:menu="@menu/bottom_nav_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>
